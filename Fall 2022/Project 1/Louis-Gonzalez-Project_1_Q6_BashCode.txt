@@ -1,0 +1,8 @@
+
+#from question 3
+awk -F, '{miles=miles+$19}END{print "Miles: " miles, "\nKilometers:" miles*1.609344}' /anvil/projects/tdm/data/flights/subset/1991.csv
+
+
+#from question 6
+#conversion factor for feet was googled and is 5280 feet per mile
+awk -F, '{miles=miles+$19}END{print "Miles: " miles, "\nFeet:" miles*5280}' /anvil/projects/tdm/data/flights/subset/1991.csv

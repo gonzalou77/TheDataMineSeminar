@@ -1,0 +1,7 @@
+commonmark==0.9.1
+plotly==5.10.0
+Pygments==2.13.0
+requests==2.2.1
+rich==12.6.0
+tenacity==8.1.0
+thedatamine==0.1.3
